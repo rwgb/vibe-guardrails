@@ -1,0 +1,14 @@
+{
+  "name": "vibe-guardrails",
+  "owner": {
+    "name": "rwgb"
+  },
+  "plugins": [
+    {
+      "name": "vibe-guardrails",
+      "source": "./",
+      "description": "Engineering guardrails for AI-assisted coding: save points, project memory, failure prediction, definition of done, and secret safety."
+    }
+  ],
+  "description": "Engineering guardrails for AI-assisted coding: save points, project memory, failure prediction, a definition of done, and secret safety \u2014 for people building software by prompting AI."
+}

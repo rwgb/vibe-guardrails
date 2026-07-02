@@ -1,0 +1,11 @@
+{
+  "name": "vibe-guardrails",
+  "description": "Engineering guardrails for AI-assisted coding: save points, project memory, failure prediction, definition of done, and secret safety.",
+  "version": "0.1.0",
+  "author": {
+    "name": "rwgb"
+  },
+  "homepage": "https://github.com/rwgb/vibe-guardrails",
+  "repository": "https://github.com/rwgb/vibe-guardrails",
+  "license": "MIT"
+}
