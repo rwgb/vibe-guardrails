@@ -1,5 +1,41 @@
 # DEVLOG — vibe-guardrails
 
+## 2026-07-02 (II) — install verified, launch post drafted, v0.2 ordered
+
+### Completed
+- Maintainer installed the plugin from GitHub (marketplace registered in user settings) —
+  skills confirmed loading; guardrail-hook live-fire test script provided, results pending
+- Reddit launch post drafted, rewritten to r/vibecoding rule-3 format (build-process as
+  the educational spine); final draft saved at drafts/reddit-launch-post.md (gitignored,
+  local only — do not commit before posting)
+- Memory-tools section added to the post (Spiderbrain, Mem0/OpenMemory, Letta,
+  claude-mem), each verified against docs 2026-07-02; none driven end-to-end (stated)
+- Scrubbed maintainer's first name from this public DEVLOG (Reddit persona separation)
+
+### Decisions
+- v0.2 ordering: `test-your-app` → `ci-basics` ahead of code-style basics (tests before
+  CI — a green check with no tests manufactures false confidence)
+- Memory-tool capability NOT built into the plugin: dependency ethos (nothing to
+  install), BUSL license can't bundle, and prose pointer gets 90% of value. Instead:
+  a "leveling up" paragraph in project-memory, v0.2, after user feedback
+- Roadmap freeze holds: no building until 2–3 real users report back
+
+### Issues Found
+- None new
+
+### Next Session
+- [ ] Post the launch article (r/ClaudeAI or r/ClaudeCode first, then r/vibecoding);
+      collect thread links
+- [ ] Guardrail live-fire results from maintainer's scratch project (block reset --hard,
+      NOT block rm -rf node_modules)
+- [ ] Triage feedback into v0.2 per the ordering above
+
+### Learnings
+- Subreddit rule-3 ("no shilling") rewrites make better posts: leading with the build
+  process instead of the project is both compliant and more transferable
+
+---
+
 ## 2026-07-02 — v0.1.0: initial plugin build
 
 ### Completed
@@ -29,11 +65,11 @@
 
 ### Issues Found
 - 13 minor review findings deferred (journal: wf_a5a10afe-e1c) — polish, not correctness
-- Install flow not yet tested end-to-end from GitHub (Ralph to manually test on a fresh
+- Install flow not yet tested end-to-end from GitHub (maintainer to manually test on a fresh
   project per failure-forecast row 4)
 
 ### Next Session
-- [ ] Ralph: manual install test on a fresh/scratch project; confirm skills load and the
+- [ ] Maintainer: manual install test on a fresh/scratch project; confirm skills load and the
       guardrail hook fires
 - [ ] Share with 2–3 real vibe coders (Reddit) for feedback before ANY expansion
 - [ ] Triage the 13 minor findings
